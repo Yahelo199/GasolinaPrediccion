@@ -40,4 +40,4 @@ b0 = LR.intercept_
 prediccion = b0 + b1[0]*df.Año + b1[1]*df.Mes_index + b1[2]*df.Estado_index
 
 st.subheader('Cálculo del costo de la gasolina')
-st.write('La cantidad predicha para las variables elgidas:', prediccion)
+st.write('La cantidad predicha para las variables elegidas:', prediccion)
