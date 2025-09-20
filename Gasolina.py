@@ -24,7 +24,7 @@ def user_input_features():
 
 df = user_input_features()
 
-gasolina =  pd.read_csv('GasolinaRegular.csv', encoding='latin-1')
+gasolina =  pd.read_csv('GasolinaRegular.csv')
 X = gasolina.drop(columns='Valor')
 y = gasolina['Valor']
 
